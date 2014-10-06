@@ -1,0 +1,30 @@
+﻿<Page x:Class="B_vereniging.View.Statistiek"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="400"
+	Title="Statistiek">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Selecteer een van onderstaande" Margin="10" VerticalAlignment="Top"/>
+        <Label Content="Startdatum" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <DatePicker Text="Selecteer een datum" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
+        <Label Content="Einddatum" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top"/>
+        <DatePicker Text="Selecteer een datum" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Selecteer een kassa" Margin="10,192,10,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,223,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Selecteer een product"  Margin="10,275,10,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,306,0,0" VerticalAlignment="Top" Width="120"/>
+        <ListBox Grid.Column="1"  Margin="10" />
+
+
+    </Grid>
+</Page>

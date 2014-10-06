@@ -1,0 +1,35 @@
+﻿<Page x:Class="B_vereniging.View.Overzicht_kassa_klant"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="400"
+	Title="Overzicht_kassa_klant">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Overzicht kassa's"  Margin="10,10" VerticalAlignment="Top"/>
+        <DataGrid Margin="10,41,10,0" VerticalAlignment="Top" Height="134" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Naam"/>
+                <DataGridTextColumn Header="Plaats"/>
+                <DataGridTextColumn Header="Medewerker"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Overzicht klanten" Grid.Column="1" Margin="10,10,10,0" VerticalAlignment="Top"/>
+        <DataGrid Margin="10,41,10,0" VerticalAlignment="Top" Height="134" Grid.Column="1" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Naam"/>
+                <DataGridTextColumn Header="Saldo"/>
+                <DataGridTextColumn Header="Telefoon"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+    </Grid>
+</Page>
