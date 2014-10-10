@@ -7,7 +7,7 @@
             <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TabControl Grid.Row="1">
+        <TabControl Grid.Row="0" Grid.RowSpan="2">
             <TabItem Header="Home">
                 <Grid>
                     <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Welkom NAAM" VerticalAlignment="Top"/>
