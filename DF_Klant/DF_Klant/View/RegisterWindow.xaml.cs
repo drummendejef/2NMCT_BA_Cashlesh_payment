@@ -1,5 +1,4 @@
-﻿using DF_Klant.View;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DF_Klant
+namespace DF_Klant.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for RegisterWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class RegisterWindow : Window
     {
-        public MainWindow()
+        public RegisterWindow()
         {
             InitializeComponent();
-        }
-
-        private void Registreren_Klant(object sender, RoutedEventArgs e)
-        {
-            //Nieuw scherm aanmaken
-            var registerwindow = new RegisterWindow();
-            registerwindow.Show();
         }
     }
 }

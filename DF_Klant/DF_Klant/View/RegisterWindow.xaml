@@ -1,0 +1,22 @@
+﻿<Window x:Class="DF_Klant.View.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registreren" Height="300" Width="300">
+    <Grid>
+        <Label Content="Voornaam" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Achternaam" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Rekeningsnummer" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="E-mailadres" HorizontalAlignment="Left" Margin="10,163,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Registreer" Margin="0,0,10,10" HorizontalAlignment="Right" Width="75" Height="22" VerticalAlignment="Bottom"/>
+
+        <TextBlock Margin="157,10,10,0" TextWrapping="Wrap" Text="Geef hieronder de code die op de kaart staat die u gekregen heeft van de medewerker" VerticalAlignment="Top"/>
+        <TextBox Height="23" Margin="157,96,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+
+
+    </Grid>
+</Window>
