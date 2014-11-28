@@ -37,7 +37,7 @@ namespace B_vereniging.Model
         private static int FindGebruikersnaam(string naam)
         {
             string sql = "SELECT Naam, Id FROM Gebruikers WHERE Naam='@Naam'";
-            DbParameter par1 = Database.AddParameter(CONNECTIONSTRING,"@Naam", naam,);
+            DbParameter par1 = Database.AddParameter(CONNECTIONSTRING,"@Naam", naam);
             return Database.InsertData(CONNECTIONSTRING, sql, par1);      
         }
         
