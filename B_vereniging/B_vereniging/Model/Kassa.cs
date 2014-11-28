@@ -29,6 +29,15 @@ namespace B_vereniging.Model
             set { _plaats = value; }
         }
 
+        private int myVar;
+
+        public int MyProperty
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+        
+
 
         
         
